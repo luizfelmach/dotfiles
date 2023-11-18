@@ -1,0 +1,19 @@
+[user]
+	name = Luiz Felipe Machado
+	email = 56140722+luizfelmach@users.noreply.github.com
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[alias]
+	s = status -s
+	lg = log --oneline --decorate --graph --all
+	unstage = restore --staged
+	co = checkout
+	cb = checkout -b
+	b = branch -a
+	ac = !git add . && git commit
+	cm = commit -m
+	main = checkout main
+[pull]
+	ff = only
