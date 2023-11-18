@@ -1,0 +1,26 @@
+export ZSH="$HOME/.oh-my-zsh"
+
+fpath+=$HOME/.zsh/pure
+autoload -U promptinit; promptinit
+prompt pure
+
+plugins=(
+    git
+    fast-syntax-highlighting
+    zsh-autosuggestions
+    zsh-completions
+    ls
+    material-colors
+)
+
+source $ZSH/oh-my-zsh.sh
+
+alias zshconfig="vim ~/.zshrc"
+alias v="nvim"
+alias ..="cd ../"
+alias ...="cd ../../"
+alias ls="logo-ls -h -l"
+alias /="fzf"
+
+bindkey -v
+
