@@ -10,7 +10,7 @@ plugins=(
     zsh-autosuggestions
     zsh-completions
     ls
-    material-colors
+    dircolors-neutral
 )
 
 source $ZSH/oh-my-zsh.sh
