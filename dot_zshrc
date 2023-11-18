@@ -11,6 +11,7 @@ plugins=(
     zsh-completions
     ls
     dircolors-neutral
+    sudo
 )
 
 source $ZSH/oh-my-zsh.sh
