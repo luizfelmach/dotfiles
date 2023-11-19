@@ -78,6 +78,7 @@ go
 yay
 hyprpicker-git
 networkmanager-openvpn
+network-manager-applet
 ttf-jetbrains-mono-nerd
 ```
 
