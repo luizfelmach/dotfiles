@@ -68,6 +68,7 @@ xdg-desktop-portal-hyprland
 
 ```
 git
+chezmoi
 vim
 ranger
 fzf
