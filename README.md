@@ -89,7 +89,6 @@ cava
 spotify
 visual-studio-code-bin
 discord
-
 ```
 
 ## Disclaimer
