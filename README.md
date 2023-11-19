@@ -60,7 +60,6 @@ bluez
 ly
 noto-fonts
 noto-fonts-emoji
-networkmanager-openvpn
 xdg-desktop-portal-hyprland
 ```
 
@@ -78,6 +77,7 @@ firefox
 go
 yay
 hyprpicker-git
+networkmanager-openvpn
 ttf-jetbrains-mono-nerd
 ```
 
