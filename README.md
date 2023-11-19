@@ -9,13 +9,13 @@ Enjoy.
 
 ## Installation
 
-A instalação utiliza o gerenciador de dotfiles [chezmoi](https://www.chezmoi.io/). Visite a página de instalação, ou se tiver no Archlinux.
+Installation uses the dotfile manager [chezmoi](https://www.chezmoi.io/). Visit the installation page, or if you have Archlinux.
 
 ```bash
 sudo pacman -Syu chezmoi
 ```
 
-Instale o setup
+Install the setup
 
 ```bash
 chezmoi init --apply https://github.com/luizfelmach/dotfiles.git
