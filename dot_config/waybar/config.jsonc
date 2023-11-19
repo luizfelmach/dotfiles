@@ -48,13 +48,13 @@
 
     "custom/lock_screen": {
         "format": "",
-        "on-click": "sh -c '(sleep 0.5s; swaylock)' & disown",
+        "on-click": "sh -c '(sleep 0.2s; swaylock)' & disown",
         "tooltip": false
     },
 
     "custom/power_btn": {
         "format": "",
-        "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
+        "on-click": "sh -c '(sleep 0.2s; wlogout --protocol layer-shell)' & disown",
         "tooltip": false
     },
 
