@@ -20,3 +20,15 @@ Install the setup
 ```bash
 chezmoi init --apply https://github.com/luizfelmach/dotfiles.git
 ```
+
+## Setup
+
+- Archlinux.
+- Hyprland for window manager.
+- Zsh to the shell.
+- Kitty. Terminal very fast.
+- Waybar. Toolbar.
+- Dunst for notifications.
+- Fuzzel to launcher apps.
+- Swaylock to screenlock.
+- Wlogout to manager system logout.
