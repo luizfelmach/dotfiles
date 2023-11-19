@@ -57,6 +57,7 @@ grim
 fuzzel
 blueman
 bluez
+ly
 noto-fonts
 noto-fonts-emoji
 networkmanager-openvpn
