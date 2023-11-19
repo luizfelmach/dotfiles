@@ -32,3 +32,66 @@ chezmoi init --apply https://github.com/luizfelmach/dotfiles.git
 - Fuzzel to launcher apps.
 - Swaylock to screenlock.
 - Wlogout to manager system logout.
+- Ly. Minimal login manager.
+
+
+## Packages
+
+- Core
+
+```
+hyprland
+dunst
+kitty
+qt5-wayland
+qt6-wayland
+swaylock-effects
+swww
+wlogout
+zsh
+wl-clipboard
+waybar
+slurp
+kitty
+grim
+fuzzel
+blueman
+bluez
+noto-fonts
+noto-fonts-emoji
+networkmanager-openvpn
+xdg-desktop-portal-hyprland
+```
+
+- Essential
+
+```
+git
+vim
+ranger
+fzf
+openssh
+btop
+firefox
+go
+yay
+hyprpicker-git
+ttf-jetbrains-mono-nerd
+```
+
+- Extras
+
+```
+neofetch
+logo-ls
+docker
+cava
+spotify
+visual-studio-code-bin
+discord
+
+```
+
+## Disclaimer
+
+- Don't forget to change the keyboard configuration to your hyprland location in .config/hyrp/hyprland.conf
