@@ -15,7 +15,7 @@ plugins=(
 )
 
 export EDITOR=vim
-export PAGER=more
+export PAGER=less
 
 source $ZSH/oh-my-zsh.sh
 
