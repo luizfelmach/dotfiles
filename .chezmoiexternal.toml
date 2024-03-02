@@ -1,6 +1,6 @@
 [".config/nvim"]
     type = "git-repo"
-    url = " https://github.com/AstroNvim/AstroNvim"
+    url = "https://github.com/AstroNvim/AstroNvim.git"
     exact = true
     refreshPeriod = "24h"
 
