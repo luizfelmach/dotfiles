@@ -24,19 +24,6 @@ alias v="nvim"
 alias vim="nvim"
 alias ..="cd ../"
 alias ...="cd ../../"
-alias ls="logo-ls -h -l"
 alias /="fzf"
 
 bindkey -v
-
-# NVM
-#export NVM_DIR="$HOME/.nvm"
-#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-
-export PNPM_HOME="/home/luiz/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-
