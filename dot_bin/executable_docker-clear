@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+if [ -n "$(docker ps -aq)" ]; then
+  docker stop $(docker ps -aq)
+fi
+
+docker container prune -f
+docker image prune -a -f
+docker volume prune -f
+docker network prune -f
+docker system prune -f
+
