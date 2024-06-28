@@ -1,0 +1,22 @@
+#!/bin/bash
+
+URL="https://file.io"
+DEFAULT_EXPIRE="14d"
+
+if [ $# -eq 0 ]; then
+    printf "usage: upload FILE [DURATION]\n"
+    printf "example: upload path/to/my/file 1w\n"
+    exit 1
+fi
+
+FILE=$1
+EXPIRE=${2:-$DEFAULT_EXPIRE}
+
+if [ ! -f "$FILE" ]; then
+    echo "error: file ${FILE} not found"
+    exit 1
+fi
+
+RESPONSE=$(curl -# -F "file=@${FILE}" "${URL}/?expires=${EXPIRE}")
+
+echo "${RESPONSE}" | grep -o '"link":*"[^"]*"' |  sed 's/"link":"//; s/"$//' 
