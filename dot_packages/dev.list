@@ -9,4 +9,4 @@ jdk-openjdk
 docker
 docker-compose
 docker-buildx
-
+cmake

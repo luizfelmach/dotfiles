@@ -9,3 +9,5 @@ zip
 man
 htop
 less
+dnsutils
+net-tools
