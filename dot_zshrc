@@ -26,6 +26,7 @@ alias vim="nvim"
 alias ..="cd ../"
 alias ...="cd ../../"
 alias /="fzf"
+alias gtoken="cat ~/.token | wl-copy"
 
 bindkey -v
 
