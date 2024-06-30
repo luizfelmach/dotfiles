@@ -27,6 +27,7 @@ alias ..="cd ../"
 alias ...="cd ../../"
 alias /="fzf"
 alias gtoken="cat ~/.token | wl-copy"
+alias cat="bat"
 
 bindkey -v
 
