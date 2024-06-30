@@ -33,6 +33,8 @@ alias paci="sudo pacman -S"
 alias ports="sudo netstat -tulanp"
 alias diff="delta"
 alias serve="miniserve"
+alias ls="eza -l -o"
+alias lt="eza -T --git-ignore"
 
 bindkey -v
 
