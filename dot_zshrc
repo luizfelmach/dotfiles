@@ -31,6 +31,7 @@ alias cat="bat"
 alias pacu="sudo pacman -Syu"
 alias paci="sudo pacman -S"
 alias ports="sudo netstat -tulanp"
+alias diff="delta"
 
 bindkey -v
 
