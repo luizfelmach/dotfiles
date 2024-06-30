@@ -28,6 +28,9 @@ alias ...="cd ../../"
 alias /="fzf"
 alias gtoken="cat ~/.token | wl-copy"
 alias cat="bat"
+alias pacu="sudo pacman -Syu"
+alias paci="sudo pacman -S"
+alias ports="sudo netstat -tulanp"
 
 bindkey -v
 
