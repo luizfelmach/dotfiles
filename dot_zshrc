@@ -32,6 +32,7 @@ alias pacu="sudo pacman -Syu"
 alias paci="sudo pacman -S"
 alias ports="sudo netstat -tulanp"
 alias diff="delta"
+alias serve="miniserve"
 
 bindkey -v
 
