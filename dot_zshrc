@@ -20,6 +20,7 @@ path+=~/.bin/
 
 source $ZSH/oh-my-zsh.sh
 
+alias :q="exit"
 alias zshconfig="vim ~/.zshrc"
 alias v="nvim"
 alias vim="nvim"
@@ -35,6 +36,7 @@ alias diff="delta"
 alias serve="miniserve"
 alias ls="eza -l -o"
 alias lt="eza -T --git-ignore"
+
 
 bindkey -v
 
