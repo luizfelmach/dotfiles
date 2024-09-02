@@ -11,3 +11,4 @@ docker-compose
 docker-buildx
 cmake
 valgrind
+julia
