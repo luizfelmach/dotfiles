@@ -12,3 +12,5 @@ less
 dnsutils
 net-tools
 tmux
+httpie
+zellij
