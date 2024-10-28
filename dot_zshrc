@@ -20,6 +20,10 @@ path+=~/.bin/
 
 source $ZSH/oh-my-zsh.sh
 
+function path() {
+  echo -e "${PATH//:/\\n}"
+}
+
 alias ..="cd ../"
 alias ...="cd ../../"
 alias :q="exit"
