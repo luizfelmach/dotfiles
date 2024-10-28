@@ -30,6 +30,11 @@ alias paci="sudo pacman -S"
 alias pacr="sudo pacman -Rnsu"
 alias ports="sudo netstat -tulanp"
 alias serve="miniserve"
+alias venvn="python -m venv $HOME/.globalenv"
+alias venva="source $HOME/.globalenv/bin/activate"
+alias venvr="rm -r $HOME/.globalenv/bin/activate"
+
+eval "$(fzf --zsh)"
 
 if command -v nvim &> /dev/null; then
     alias v="nvim"
