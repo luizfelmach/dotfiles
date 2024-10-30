@@ -13,7 +13,7 @@ if [ ! -d "$PACKAGES" ]; then
     exit 1
 fi
 
-LISTS=$(ls "$PACKAGES" | gum choose --no-limit)
+LISTS=$(ls "$PACKAGES" | gum choose --no-limit --header "Choose lists to install")
 
 for LIST in $LISTS; do
   sudo pacman -S $(cat "$PACKAGES/$LIST" | xargs)
