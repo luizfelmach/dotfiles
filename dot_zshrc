@@ -28,7 +28,7 @@ alias ..="cd ../"
 alias ...="cd ../../"
 alias :q="exit"
 alias zshconfig="vim ~/.zshrc"
-alias /="fzf"
+alias /="fzf --preview 'bat --color=always {}'"
 alias pacu="sudo pacman -Syu"
 alias paci="sudo pacman -S"
 alias pacr="sudo pacman -Rnsu"
@@ -57,8 +57,8 @@ if command -v delta &> /dev/null; then
 fi
 
 if command -v eza &> /dev/null; then
-    alias ls="eza -l -o"
-    alias lt="eza -T --git-ignore"
+    alias ls="eza -lh --group-directories-first --icons"
+    alias lt='eza --tree --level=2 --long --icons --git'
 fi
 
 if command -v zoxide &> /dev/null; then

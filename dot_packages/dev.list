@@ -12,3 +12,4 @@ docker-buildx
 cmake
 valgrind
 julia
+gum

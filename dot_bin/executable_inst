@@ -1,0 +1,21 @@
+#!/bin/bash
+
+PACKAGES="$HOME/.packages"
+
+if ! command -v gum &> /dev/null; then
+  echo "command gum not found ..."
+  echo "installing gum ..."
+  sudo pacman -S gum --noconfirm
+  exit 1
+fi
+
+if [ ! -d "$PACKAGES" ]; then
+    echo "O diretório $PACKAGES não existe."
+    exit 1
+fi
+
+LISTS=$(ls "$PACKAGES" | gum choose --no-limit)
+
+for LIST in $LISTS; do
+  sudo pacman -S $(cat "$PACKAGES/$LIST" | xargs)
+done
