@@ -6,7 +6,6 @@ if ! command -v gum &> /dev/null; then
   echo "command gum not found ..."
   echo "installing gum ..."
   sudo pacman -S gum --noconfirm
-  exit 1
 fi
 
 if [ ! -d "$PACKAGES" ]; then
