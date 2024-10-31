@@ -40,6 +40,7 @@ alias serve="miniserve"
 alias venvn="python -m venv $HOME/.globalenv"
 alias venva="source $HOME/.globalenv/bin/activate"
 alias venvr="rm -r $HOME/.globalenv/bin/activate"
+alias dotsync="chezmoi re-add && chezmoi git add . && chezmoi git cm 'update' && chezmoi git push"
 
 eval "$(fzf --zsh)"
 
