@@ -72,3 +72,24 @@ if command -v pyenv &> /dev/null; then
     eval "$(pyenv init -)"
 fi
 
+
+export PNPM_HOME="/home/luiz/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+
+esac
+
+
+export NVM_DIR="$HOME/.config/nvm"
+
+if [ ! -d $NVM_DIR ]; then
+  git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"
+  cd "$NVM_DIR"
+  git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`
+  cd -
+fi
+
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
