@@ -1,0 +1,29 @@
+{
+  "editor.fontFamily": "'JetBrainsMono Nerd Font Mono'",
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Min Light",
+  "workbench.iconTheme": "symbols",
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.8,
+  "editor.renderLineHighlight": "gutter",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.stickyScroll.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.minimap.enabled": false,
+  "git.ignoreMissingGitWarning": true,
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.tabCompletion": "on",
+  "files.trimTrailingWhitespace": true,
+  "window.menuBarVisibility": "compact",
+  "explorer.confirmDelete": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.formatOnSave": true,
+  "files.associations": {
+    ".env.*": "dotenv",
+    "*.css": "css",
+    ".dev.vars": "dotenv"
+  }
+}
