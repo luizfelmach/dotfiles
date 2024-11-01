@@ -1,0 +1,21 @@
+#!/bin/bash
+
+pkglist=(
+  ms-vscode.cpptools
+  donjayamanne.githistory
+  bradlc.vscode-tailwindcss
+  christian-kohler.path-intellisense
+  esbenp.prettier-vscode
+  miguelsolorio.min-theme
+  miguelsolorio.symbols
+  ms-python.python
+  ms-toolsai.jupyter
+  natqe.reload
+  nomicfoundation.hardhat-solidity
+  pomdtr.excalidraw-editor
+  prisma.prisma
+)
+
+for i in ${pkglist[@]}; do
+  code --install-extension $i
+done

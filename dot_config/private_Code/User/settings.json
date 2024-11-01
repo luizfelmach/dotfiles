@@ -25,5 +25,6 @@
     ".env.*": "dotenv",
     "*.css": "css",
     ".dev.vars": "dotenv"
-  }
+  },
+  "solidity.telemetry": false
 }
