@@ -87,9 +87,6 @@ if command -v pyenv &> /dev/null; then
     eval "$(pyenv init -)"
 fi
 
-if command -v zellij &> /dev/null; then
-    eval "$(zellij setup --generate-auto-start zsh)"
-fi
 
 export PNPM_HOME="/home/luiz/.local/share/pnpm"
 case ":$PATH:" in

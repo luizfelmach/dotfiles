@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "'JetBrainsMono Nerd Font Mono'",
   "editor.fontLigatures": true,
-  "workbench.colorTheme": "Min Light",
+  "workbench.colorTheme": "Rosé Pine",
   "workbench.iconTheme": "symbols",
   "editor.tabSize": 2,
   "editor.fontSize": 16,
@@ -17,7 +17,7 @@
   "editor.suggestOnTriggerCharacters": false,
   "editor.tabCompletion": "on",
   "files.trimTrailingWhitespace": true,
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "hidden",
   "explorer.confirmDelete": false,
   "extensions.ignoreRecommendations": true,
   "editor.formatOnSave": true,
