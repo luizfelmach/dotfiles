@@ -45,3 +45,9 @@
     url = "https://github.com/zsh-users/zsh-completions.git"
     exact = true
     refreshPeriod = "24h"
+
+[".oh-my-zsh/custom/plugins/you-should-use"]
+    type = "git-repo"
+    url = "https://github.com/MichaelAquilina/zsh-you-should-use.git"
+    exact = true
+    refreshPeriod = "24h"

@@ -12,6 +12,7 @@ plugins=(
     ls
     dircolors-neutral
     sudo
+    you-should-use
 )
 
 export EDITOR=vim
