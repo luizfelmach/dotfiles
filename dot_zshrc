@@ -1,5 +1,4 @@
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_TMUX_AUTOSTART=true
 
 fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
@@ -14,7 +13,6 @@ plugins=(
     dircolors-neutral
     sudo
     you-should-use
-    tmux
 )
 
 export EDITOR=vim
@@ -78,12 +76,17 @@ if command -v pyenv &> /dev/null; then
     eval "$(pyenv init -)"
 fi
 
+if command -v zellij &> /dev/null; then
+    eval "$(zellij setup --generate-auto-start zsh)"
+fi
+
 export PNPM_HOME="/home/luiz/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 
 esac
+
 
 export NVM_DIR="$HOME/.config/nvm"
 
@@ -96,4 +99,3 @@ fi
 
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
