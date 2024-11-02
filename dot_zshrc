@@ -54,7 +54,10 @@ extract() {
     tar -xzvf "$1"
 }
 
-eval "$(fzf --zsh)"
+
+if command -v fzf &> /dev/null;then
+    eval "$(fzf --zsh)"
+fi
 
 if command -v nvim &> /dev/null; then
     alias v="nvim"
