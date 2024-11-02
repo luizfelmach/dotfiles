@@ -11,8 +11,7 @@ htop
 less
 dnsutils
 net-tools
-tmux
-httpie
 zoxide
 eza
 pacman-contrib
+chezmoi

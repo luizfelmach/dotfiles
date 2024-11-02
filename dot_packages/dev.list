@@ -2,7 +2,6 @@ nodejs
 npm
 pnpm
 pyenv
-python-virtualenv
 go
 rustup
 jdk-openjdk
@@ -13,3 +12,5 @@ cmake
 valgrind
 julia
 gum
+tmux
+httpie
