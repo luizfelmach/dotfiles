@@ -13,7 +13,6 @@ dnsutils
 net-tools
 tmux
 httpie
-zellij
 zoxide
 eza
 pacman-contrib
