@@ -46,6 +46,14 @@ alias dotsync="chezmoi re-add && chezmoi git add . && chezmoi git cm 'update: $(
 alias cz='chezmoi'
 alias dk='docker'
 
+compress() {
+    tar -czvf "$1" "${@:2}"
+}
+
+extract() {
+    tar -xzvf "$1"
+}
+
 eval "$(fzf --zsh)"
 
 if command -v nvim &> /dev/null; then
