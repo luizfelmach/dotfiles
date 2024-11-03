@@ -73,8 +73,8 @@ if command -v delta &> /dev/null; then
 fi
 
 if command -v eza &> /dev/null; then
-    alias ls="eza -lh --group-directories-first --icons"
-    alias lt='eza --tree --level=2 --long --icons --git'
+    alias ls="eza -lh --group-directories-first --icons=always $@"
+    alias lt='eza --tree --level=2 --long --icons=always --git $@'
 fi
 
 if command -v zoxide &> /dev/null; then
