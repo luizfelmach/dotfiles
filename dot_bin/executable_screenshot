@@ -1,0 +1,15 @@
+#!/bin/bash
+
+DIR="$HOME/Images"
+FILENAME="$DIR/$(date +%Y-%m-%d_%H-%M-%S).png"
+
+mkdir -p "$DIR"
+
+if [ "$1" == "select" ]; then
+    maim --select "$FILENAME"
+else
+    maim "$FILENAME"
+fi
+
+xclip -selection clipboard -t image/png -i "$FILENAME"
+
