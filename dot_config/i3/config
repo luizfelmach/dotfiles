@@ -11,6 +11,8 @@ exec --no-startup-id feh --bg-scale .local/share/image/wallpaper.png
 bindsym Print exec --no-startup-id $HOME/.bin/screenshot
 bindsym Shift+Print exec --no-startup-id $HOME/.bin/screenshot select
 
+bindsym XF86MonBrightnessDown exec brightnessctl s 5%-
+bindsym XF86MonBrightnessUp exec brightnessctl s +5%
 
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
