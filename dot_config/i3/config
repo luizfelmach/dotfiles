@@ -117,7 +117,6 @@ mode "resize" {
 }
 
 bar {
-        status_command i3status
+        status_command SCRIPT_DIR="$HOME/.config/i3blocks/" i3blocks
         separator_symbol " | "
-        # mode hide
 }
