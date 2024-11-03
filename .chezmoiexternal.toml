@@ -4,12 +4,6 @@
     exact = true
     refreshPeriod = "24h"
 
-[".config/i3blocks"]
-    type = "git-repo"
-    url = "https://github.com/vivien/i3blocks-contrib"
-    exact = true
-    refreshPeriod = "24h"
-
 [".oh-my-zsh"]
     type = "git-repo"
     url = "https://github.com/ohmyzsh/ohmyzsh.git"
