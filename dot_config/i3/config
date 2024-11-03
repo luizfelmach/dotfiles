@@ -3,8 +3,8 @@ set $mod Mod4
 font pango:JetBrains Mono Nerd Font 9
 gaps inner 10
 gaps outer 5
-default_border pixel 1
-default_floating_border pixel 1
+default_border pixel 3
+default_floating_border pixel 3
 
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xset r rate 200 70
