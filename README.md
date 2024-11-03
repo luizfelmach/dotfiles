@@ -1,5 +1,9 @@
 ## luizfelmach/dotfiles
 
+<p align="center">
+  <img src="./assets/example.png" alt="Example" />
+</p>
+
 ```bash
 sudo pacman -Syu chezmoi
 ```
