@@ -26,5 +26,8 @@
     "*.css": "css",
     ".dev.vars": "dotenv"
   },
-  "solidity.telemetry": false
+  "solidity.telemetry": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

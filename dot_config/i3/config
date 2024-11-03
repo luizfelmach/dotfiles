@@ -119,4 +119,6 @@ mode "resize" {
 bar {
         status_command SCRIPT_DIR="$HOME/.config/i3blocks/" i3blocks
         separator_symbol " | "
+        font pango:Inter Bold 10
+        position top
 }
