@@ -1,6 +1,6 @@
 set $mod Mod4
 
-font pango:JetBrains Mono Nerd Font 9
+font pango:JetBrains Mono Nerd Font 10
 gaps inner 10
 gaps outer 5
 default_border pixel 3
@@ -117,6 +117,7 @@ mode "resize" {
 }
 
 bar {
-        status_command i3status
-        mode hide
+        status_command i3blocks
+        separator_symbol " | "
+        # mode hide
 }
