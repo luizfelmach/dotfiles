@@ -7,7 +7,7 @@ default_border pixel 3
 default_floating_border pixel 3
 
 exec --no-startup-id dex --autostart --environment i3
-exec --no-startup-id xset r rate 200 70
+exec --no-startup-id xset r rate 200 100
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 exec --no-startup-id feh --bg-scale .local/share/image/wallpaper.png
