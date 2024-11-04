@@ -3,6 +3,8 @@ i3lock
 i3blocks
 dmenu
 xorg-server
+xorg-xinit
+kitty
 xclip
 feh
 maim
