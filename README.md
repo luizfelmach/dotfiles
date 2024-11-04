@@ -5,7 +5,7 @@
 </p>
 
 ```bash
-sudo pacman -Syu chezmoi
+sudo pacman -S zsh git chezmoi
 ```
 
 Install the setup
@@ -15,5 +15,5 @@ chezmoi init --apply git@github.com:luizfelmach/dotfiles.git
 ```
 
 ```bash
-chezmoi init --apply https://github.com/luizfelmach/dotfiles.git
+chezmoi init --apply luizfelmach
 ```
