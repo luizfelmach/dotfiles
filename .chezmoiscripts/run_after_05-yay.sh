@@ -9,13 +9,11 @@ fi
 echo "install yay? (y/n)"
 read -r ans
 
-if [[ "$ans" == "n" ]]; then
-  exit 0
+if [[ "$ans" == "y" ]]; then
+  cd /tmp
+  git clone https://aur.archlinux.org/yay.git
+  cd yay
+  makepkg -si
+  cd -
+  rm -rf yay
 fi
-
-cd /tmp
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd -
-rm -rf yay
