@@ -4,6 +4,7 @@ i3blocks
 dmenu
 xorg-server
 xorg-xinit
+xorg-xinput
 kitty
 xclip
 feh
