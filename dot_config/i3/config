@@ -28,6 +28,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 bindsym $mod+Return exec kitty
+bindsym $mod+b exec kitty yazi
 bindsym $mod+BackSpace kill
 bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+h focus left
