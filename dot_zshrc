@@ -25,6 +25,7 @@ function path() {
 }
 
 path+=~/.bin/
+path+=~/.cargo/bin
 
 alias ..="cd ../"
 alias ...="cd ../../"
