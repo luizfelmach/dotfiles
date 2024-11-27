@@ -14,3 +14,5 @@ julia
 gum
 tmux
 httpie
+speedtest-cli
+jq
