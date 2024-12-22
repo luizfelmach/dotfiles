@@ -1,0 +1,99 @@
+# AUR
+spotify
+visual-studio-code-bin
+
+# DESKTOP
+hyprland
+hyprland-qtutils
+hyprpaper
+brightnessctl
+playerctl
+wl-clipboard
+waybar
+yazi
+dunst
+fuzzel
+xdg-desktop-portal-hyprland
+alacritty
+
+# DEV
+nodejs
+npm
+pnpm
+pyenv
+go
+rustup
+jdk-openjdk
+docker
+docker-compose
+docker-buildx
+cmake
+valgrind
+julia
+gum
+tmux
+httpie
+jq
+
+# DOCKER
+docker
+docker-compose
+docker-buildx
+
+# ESSENTIAL
+git
+curl
+fzf
+ripgrep
+zsh
+firefox
+unzip
+zip
+man
+htop
+less
+zoxide
+eza
+pacman-contrib
+chezmoi
+
+# FONTS
+noto-fonts
+noto-fonts-emoji
+inter-font
+ttf-jetbrains-mono-nerd
+gnu-free-fonts
+
+# UTILS
+fastfetch
+lazygit
+btop
+ffmpeg
+reflector
+bat
+git-delta
+miniserve
+tldr
+
+# VIM
+vi
+vim
+neovim
+
+# VIRT MANAGER
+libvirt
+qemu-full
+virt-manager
+dnsmasq
+dmidecode
+swtpm
+
+# NETWORK
+network-manager-applet
+networkmanager
+networkmanager-openvpn
+traceroute
+tcpdump
+dnsutils
+net-tools
+speedtest-cli

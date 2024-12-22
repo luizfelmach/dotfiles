@@ -2,14 +2,9 @@
 
 set -euo pipefail
 
-function install() {
-  if ! command -v $1 &> /dev/null; then
-    sudo pacman -S $1 --noconfirm
-  fi
-}
-
-install zsh
-install git
+if ! command -v zsh &> /dev/null; then
+  sudo pacman -S zsh --noconfirm
+fi
 
 USER_SHELL=$(grep "^$(whoami):" /etc/passwd | cut -d: -f7)
 

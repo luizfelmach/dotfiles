@@ -19,4 +19,4 @@ fi
 
 RESPONSE=$(curl -# -F "file=@${FILE}" "${URL}/?expires=${EXPIRE}")
 
-echo "${RESPONSE}" | grep -o '"link":*"[^"]*"' |  sed 's/"link":"//; s/"$//' 
+echo "${RESPONSE}" | grep -o '"link":*"[^"]*"' |  sed 's/"link":"//; s/"$//'

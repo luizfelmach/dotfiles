@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 if [ -n "$(docker ps -aq)" ]; then
   docker stop $(docker ps -aq)
 fi
