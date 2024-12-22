@@ -90,14 +90,11 @@ fi
 
 eval "$($HOME/.local/bin/mise activate zsh)"
 if ! command -v mise &> /dev/null; then
-    curl https://mise.run | sh   
+    curl https://mise.run | sh
 fi
-
 
 export PNPM_HOME="/home/luiz/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
-
-
