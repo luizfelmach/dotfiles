@@ -17,6 +17,7 @@ xdg-desktop-portal-hyprland
 alacritty
 slurp
 grim
+hyprpicker
 
 # DEV
 nodejs
