@@ -1,6 +1,7 @@
 # AUR
 spotify
 visual-studio-code-bin
+cava
 
 # DESKTOP
 hyprland
@@ -18,6 +19,7 @@ alacritty
 slurp
 grim
 hyprpicker
+hyprlock
 
 # DEV
 nodejs
