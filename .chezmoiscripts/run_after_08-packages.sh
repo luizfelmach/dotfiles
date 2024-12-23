@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "OKOKOKOK"
-
 LIST="$CHEZMOI_WORKING_TREE/dot_packages.list"
 
 packages=()
