@@ -1,25 +1,18 @@
 # AUR
 spotify
 visual-studio-code-bin
-cava
 
 # DESKTOP
-hyprland
-hyprland-qtutils
-hyprpaper
-brightnessctl
-playerctl
+plasma-meta
+plasma-workspace
+sddm
+spectacle
+okular
+gwenview
+vlc
+power-profiles-daemon
 wl-clipboard
-waybar
-yazi
-dunst
-fuzzel
-xdg-desktop-portal-hyprland
 alacritty
-slurp
-grim
-hyprpicker
-hyprlock
 
 # DEV
 nodejs

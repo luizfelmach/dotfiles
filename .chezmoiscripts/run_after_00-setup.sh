@@ -13,9 +13,6 @@ if [ "$USER_SHELL" != $(which zsh) ]; then
 fi
 
 folders=(
-    "Downloads"
-    "Images"
-    "Docs"
     "Github"
     "Tmp"
 )
