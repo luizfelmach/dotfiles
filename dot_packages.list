@@ -85,7 +85,6 @@ virt-manager
 dnsmasq
 dmidecode
 swtpm
-ovmf
 
 # NETWORK
 network-manager-applet
