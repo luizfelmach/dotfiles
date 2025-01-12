@@ -9,5 +9,4 @@ if ! grep -Fxq "$CONTENT" "$FILE"; then
     echo "$CONTENT" | sudo tee -a "$FILE" > /dev/null
 fi
 
-sudo systemctl enable --now libvirtd
 sudo usermod -aG libvirt $USER
