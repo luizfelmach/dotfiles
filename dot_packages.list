@@ -2,28 +2,21 @@
 visual-studio-code-bin
 
 # DESKTOP
-plasma-meta
-plasma-workspace
-sddm
-spectacle
-dolphin
+bspwm
+sxhkd
 sof-firmware
-ark
-okular
-gwenview
-vlc
-power-profiles-daemon
-wl-clipboard
-alacritty
+dmenu
+polybar
+rio
+xorg
+xorg-xinit
 
 # DEV
 nodejs
 npm
 pnpm
-pyenv
 go
-rustup
-jdk-openjdk
+rust
 docker
 docker-compose
 docker-buildx
@@ -45,8 +38,8 @@ git
 curl
 fzf
 ripgrep
-zsh
-firefox
+fish
+zen-browser
 unzip
 zip
 man
@@ -56,6 +49,7 @@ zoxide
 eza
 pacman-contrib
 chezmoi
+yazi
 
 # FONTS
 noto-fonts
@@ -75,10 +69,12 @@ git-delta
 miniserve
 tldr
 
-# VIM
+# EDITOR
 vi
 vim
 neovim
+helix
+visual-studio-code-bin
 
 # VIRT MANAGER
 libvirt
