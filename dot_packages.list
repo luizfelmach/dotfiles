@@ -8,6 +8,12 @@ rio
 xorg
 xorg-xinit
 brightnessctl
+flameshot
+xclip
+xsel
+bluez
+bluez-utils
+blueman
 
 # DEV
 nodejs

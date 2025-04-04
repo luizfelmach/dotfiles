@@ -128,3 +128,6 @@ XF86MonBrightnessUp
 
 XF86MonBrightnessDown
     brightnessctl s 10%-
+
+Print
+    flameshot gui
