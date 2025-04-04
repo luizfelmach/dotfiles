@@ -19,3 +19,5 @@ bspc rule -a Screenkey manage=off
 
 polybar &
 rio &
+xinput set-prop "ELAN0B00:00 04F3:30EA Touchpad" "libinput Natural Scrolling Enabled" 1
+xinput set-prop "ELAN0B00:00 04F3:30EA Touchpad" "libinput Tapping Enabled" 1
