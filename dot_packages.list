@@ -20,7 +20,7 @@ nodejs
 npm
 pnpm
 go
-rust
+rustup
 docker
 docker-compose
 docker-buildx
@@ -31,6 +31,8 @@ gum
 tmux
 httpie
 jq
+perf
+k6-bin
 
 # DOCKER
 docker
@@ -54,6 +56,7 @@ eza
 pacman-contrib
 chezmoi
 yazi
+lostfiles
 
 # FONTS
 noto-fonts
