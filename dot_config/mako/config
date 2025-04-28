@@ -1,0 +1,12 @@
+# See man 5 mako
+
+max-history=5
+sort=-time
+font=Inter
+background-color=#121113
+margin=10
+padding=15
+border-radius=10
+border-color=#2980B9
+icons=1
+default-timeout=5000
