@@ -4,7 +4,7 @@
   "height": 30,
   "spacing": 10,
   "modules-left": ["hyprland/workspaces", "hyprland/window"],
-  "modules-center": ["clock"],
+  "modules-center": [],
   "modules-right": [
     "idle_inhibitor",
     "cpu",
@@ -14,26 +14,9 @@
     "battery",
     "power-profiles-daemon",
     "pulseaudio",
+    "clock",
     "tray",
   ],
-  "hyprland/workspaces": {
-    "format": "{icon}",
-    "format-icons": {
-      "1": "I",
-      "2": "II",
-      "3": "III",
-      "4": "IV",
-      "5": "V",
-      "6": "VI",
-      "7": "VII",
-      "8": "VIII",
-      "9": "IX",
-      "10": "X",
-      "urgent": "",
-      "focused": "",
-      "default": "",
-    },
-  },
   "hyprland/window": {
     "max-length": 20,
   },
@@ -44,8 +27,8 @@
   "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
-      "activated": "",
-      "deactivated": "",
+      "activated": " ",
+      "deactivated": " ",
     },
   },
   "tray": {
@@ -93,20 +76,11 @@
       "power-saver": "",
     },
   },
-  "network": {
-    // "interface": "wlp2*", // (Optional) To force the use of this interface
-    "format-wifi": "{essid} ({signalStrength}%) ",
-    "format-ethernet": "{ipaddr}/{cidr} ",
-    "tooltip-format": "{ifname} via {gwaddr} ",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "Disconnected ⚠",
-    "format-alt": "{ifname}: {ipaddr}/{cidr}",
-  },
   "pulseaudio": {
     // "scroll-step": 1, // %, can be a float
-    "format": "{volume}% {icon} {format_source}",
-    "format-bluetooth": "{volume}% {icon} {format_source}",
-    "format-bluetooth-muted": " {icon} {format_source}",
+    "format": "{volume}% {icon}    {format_source}",
+    "format-bluetooth": "{volume}% {icon}     {format_source}",
+    "format-bluetooth-muted": " {icon}     {format_source}",
     "format-muted": " {format_source}",
     "format-source": "{volume}% ",
     "format-source-muted": "",
