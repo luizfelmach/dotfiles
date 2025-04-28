@@ -7,6 +7,7 @@
   "modules-center": [],
   "modules-right": [
     "idle_inhibitor",
+    "custom/updates",
     "cpu",
     "memory",
     "temperature",
@@ -30,6 +31,12 @@
       "activated": " ",
       "deactivated": " ",
     },
+  },
+  "custom/updates": {
+    "format": "{} 󰚰",
+    "exec": "bash -c 'paru -Qua --aur --repo 2>/dev/null | wc -l'",
+    "interval": 60,
+    "on-click": "rio -e paru -Syu"
   },
   "tray": {
     "spacing": 10,
