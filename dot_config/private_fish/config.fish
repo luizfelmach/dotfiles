@@ -16,6 +16,7 @@ set -U fish_user_paths ~/.bin $fish_user_paths
 set -U fish_user_paths ~/.local/share/pnpm $fish_user_paths
 
 bind \cg lazygit
+bind \ce yazi
 
 if type -q eza
     alias ls="eza -lh --group-directories-first --icons=always $args"
