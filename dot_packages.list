@@ -37,6 +37,7 @@ inter-font
 jq
 julia
 k6-bin
+kdenlive
 lazygit
 libnotify
 libvirt
@@ -48,6 +49,7 @@ mako
 man-db
 memtest86+-efi
 miniserve
+mpv
 neovim
 net-tools
 network-manager-applet
@@ -56,6 +58,7 @@ networkmanager-openvpn
 noto-fonts
 noto-fonts-emoji
 npm
+obs-studio
 pacman-contrib
 paru-bin
 paru-bin-debug
