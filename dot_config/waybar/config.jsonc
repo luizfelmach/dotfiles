@@ -33,9 +33,9 @@
     },
   },
   "custom/updates": {
-    "format": "{} 󰚰",
+    "format": "{} ",
     "exec": "bash -c 'paru -Qua --aur --repo 2>/dev/null | wc -l'",
-    "interval": 60,
+    "interval": 10,
     "on-click": "rio -e paru -Syu"
   },
   "tray": {
@@ -51,7 +51,7 @@
   "temperature": {
     "critical-threshold": 80,
     "format": "{temperatureC}°C {icon}",
-    "format-icons": ["", "", ""],
+    "format-icons": ["", "", ""],
   },
   "backlight": {
     "format": "{percent}% {icon}",
@@ -65,7 +65,7 @@
     },
     "format": "{capacity}% {icon}",
     "format-full": "{capacity}% {icon}",
-    "format-charging": "{capacity}% ",
+    "format-charging": "{capacity}% ",
     "format-plugged": "{capacity}% ",
     "format-alt": "{time} {icon}",
     "format-good": "", // An empty format will hide the module
@@ -94,7 +94,7 @@
     "format-icons": {
       "headphone": "",
       "hands-free": "",
-      "headset": "",
+      "headset": "󰋎",
       "phone": "",
       "portable": "",
       "car": "",
