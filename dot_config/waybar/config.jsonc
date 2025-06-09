@@ -36,7 +36,7 @@
     "format": "{} ",
     "exec": "bash -c 'paru -Qua --aur --repo 2>/dev/null | wc -l'",
     "interval": 10,
-    "on-click": "rio -e paru -Syu"
+    "on-click": "foot paru -Syu"
   },
   "tray": {
     "spacing": 10,

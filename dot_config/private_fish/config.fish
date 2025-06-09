@@ -14,9 +14,10 @@ alias dk='docker'
 set -U fish_user_paths ~/.cargo/bin $fish_user_paths
 set -U fish_user_paths ~/.bin $fish_user_paths
 set -U fish_user_paths ~/.local/share/pnpm $fish_user_paths
+set -x TERM xterm-256color
 
 bind \cg lazygit
-bind \ce yazi
+bind \ce spf
 
 if type -q eza
     alias ls="eza -lh --group-directories-first --icons=always $args"
