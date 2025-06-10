@@ -1,5 +1,5 @@
 
-font = Inter Thin
+font = Inter
 font-size = 30
 
 outline-width = 0
@@ -9,7 +9,7 @@ padding-top = 2%
 padding-right = 0
 padding-bottom = 0
 
-background-color = #111111ef
+background-color = #47322Cee
 text-color = #f9fbff
 selection-color = #933
 
