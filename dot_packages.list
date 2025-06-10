@@ -1,7 +1,7 @@
+ags-hyprpanel-git
 base
 base-devel
 bat
-blueman
 bluez
 brightnessctl
 btop
@@ -51,14 +51,12 @@ linux-lts
 linux-lts-headers
 lostfiles
 magic-wormhole
-mako
 man-db
 memtest86+-efi
 miniserve
 mpv
 neovim
 net-tools
-network-manager-applet
 networkmanager
 networkmanager-openvpn
 nmap
@@ -97,7 +95,6 @@ vi
 vim
 virt-manager
 vulkan-intel
-waybar
 wget
 wireguard-tools
 wireplumber
