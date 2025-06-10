@@ -5,7 +5,7 @@
 </p>
 
 ```bash
-sudo pacman -S zsh git chezmoi
+sudo pacman -S fish git chezmoi
 ```
 
 Install the setup
