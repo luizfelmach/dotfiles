@@ -10,6 +10,7 @@ cabal-install
 chezmoi
 cmake
 curl
+discord
 dnsmasq
 docker
 docker-buildx
@@ -29,6 +30,7 @@ git-delta
 gnu-free-fonts
 go
 grim
+grimblast-git
 htop
 httpie
 hypridle
@@ -37,6 +39,7 @@ hyprlock
 hyprpaper
 hyprpicker
 hyprpolkitagent
+hyprsunset
 intel-ucode
 inter-font
 jq
@@ -95,6 +98,7 @@ vi
 vim
 virt-manager
 vulkan-intel
+wf-recorder
 wget
 wireguard-tools
 wireplumber
