@@ -36,7 +36,6 @@ httpie
 hypridle
 hyprland
 hyprlock
-hyprpaper
 hyprpicker
 hyprpolkitagent
 hyprsunset
@@ -55,6 +54,7 @@ linux-lts-headers
 lostfiles
 magic-wormhole
 man-db
+matugen-bin
 memtest86+-efi
 miniserve
 mpv
@@ -78,6 +78,7 @@ pipewire-jack
 pipewire-pulse
 pnpm
 power-profiles-daemon
+python-pywal16
 qemu-full
 reflector
 rustup
@@ -86,6 +87,7 @@ slurp
 sof-firmware
 superfile
 swtpm
+swww
 systemd-resolvconf
 tldr
 tofi
