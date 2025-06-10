@@ -1,0 +1,122 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.font.size": "1rem",
+  "theme.font.name": "Ubuntu Nerd Font",
+  "theme.font.label": "Ubuntu Nerd Font",
+  "theme.bar.floating": false,
+  "theme.bar.location": "top",
+  "bar.autoHide": "never",
+  "theme.bar.buttons.enableBorders": false,
+  "theme.bar.border.location": "none",
+  "theme.bar.enableShadow": false,
+  "theme.bar.shadowMargins": "0px 0px 4px 0px",
+  "theme.bar.outer_spacing": "0.9em",
+  "menus.power.showLabel": true,
+  "menus.power.lowBatteryNotification": false,
+  "menus.dashboard.directories.enabled": true,
+  "menus.clock.time.military": false,
+  "menus.clock.time.hideSeconds": false,
+  "menus.clock.weather.location": "Los Angeles",
+  "menus.clock.weather.unit": "imperial",
+  "menus.clock.weather.enabled": true,
+  "menus.volume.raiseMaximumVolume": false,
+  "menus.media.hideAuthor": false,
+  "menus.media.displayTime": false,
+  "theme.bar.buttons.modules.microphone.enableBorder": false,
+  "theme.bar.buttons.modules.cpu.enableBorder": false,
+  "theme.bar.buttons.modules.cpuTemp.enableBorder": false,
+  "theme.bar.buttons.modules.updates.enableBorder": false,
+  "theme.bar.buttons.modules.cava.enableBorder": false,
+  "theme.bar.buttons.notifications.enableBorder": false,
+  "bar.battery.hideLabelWhenFull": false,
+  "bar.workspaces.showWsIcons": false,
+  "bar.workspaces.workspaceMask": false,
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.show_icons": false,
+  "bar.launcher.autoDetectIcon": true,
+  "menus.transition": "crossfade",
+  "theme.bar.scaling": 100,
+  "bar.customModules.microphone.label": true,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "hypridle",
+        "hyprsunset",
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "bar.customModules.netstat.dynamicIcon": false,
+  "bar.customModules.netstat.rateUnit": "auto",
+  "theme.bar.layer": "top",
+  "theme.bar.transparent": true,
+  "theme.bar.background": "#11111b",
+  "theme.bar.buttons.background": "#242438",
+  "theme.bar.buttons.icon_background": "#242438",
+  "theme.bar.opacity": 100,
+  "theme.bar.buttons.opacity": 100,
+  "theme.bar.buttons.background_opacity": 100,
+  "theme.bar.buttons.background_hover_opacity": 100,
+  "theme.bar.menus.opacity": 100,
+  "theme.font.weight": 600,
+  "theme.bar.menus.monochrome": false,
+  "wallpaper.pywal": true,
+  "wallpaper.image": "/home/luiz/.local/share/images/background.png",
+  "wallpaper.enable": true,
+  "theme.matugen": true,
+  "theme.matugen_settings.mode": "dark",
+  "theme.matugen_settings.scheme_type": "expressive",
+  "theme.matugen_settings.variation": "standard_3",
+  "theme.bar.buttons.y_margins": "0.4em",
+  "theme.bar.buttons.spacing": "0.25em",
+  "theme.bar.buttons.dashboard.enableBorder": false,
+  "theme.bar.buttons.separator.margins": "0.15em",
+  "theme.bar.buttons.separator.width": "0.1em",
+  "theme.matugen_settings.contrast": 0.5
+}
