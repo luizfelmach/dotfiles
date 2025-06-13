@@ -50,6 +50,7 @@
         "media"
       ],
       "right": [
+        "updates",
         "hypridle",
         "hyprsunset",
         "volume",
@@ -118,5 +119,24 @@
   "theme.bar.buttons.dashboard.enableBorder": false,
   "theme.bar.buttons.separator.margins": "0.15em",
   "theme.bar.buttons.separator.width": "0.1em",
-  "theme.matugen_settings.contrast": 0.5
+  "theme.matugen_settings.contrast": 0.5,
+  "menus.dashboard.directories.left.directory1.label": "󰉍  Downloads",
+  "menus.dashboard.shortcuts.left.shortcut2.command": "spotify",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "zen-browser",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Zen Browser",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "tofi-drun --drun-launch=true",
+  "menus.dashboard.stats.enable_gpu": false,
+  "menus.dashboard.directories.left.directory2.label": "󰉏  Videos",
+  "menus.dashboard.directories.left.directory3.label": "󰚝  Projects",
+  "menus.dashboard.directories.right.directory1.label": "󱧶  Documents",
+  "menus.dashboard.directories.right.directory2.label": "󰉏  Pictures",
+  "menus.dashboard.directories.right.directory3.label": "󱂵  Home",
+  "menus.dashboard.directories.right.directory3.command": "bash -c \"foot -e spf $HOME/\"",
+  "menus.dashboard.directories.right.directory2.command": "bash -c \"foot -e spf $HOME/Pictures/\"",
+  "menus.dashboard.directories.right.directory1.command": "bash -c \"foot -e spf $HOME/Documents/\"",
+  "menus.dashboard.directories.left.directory3.command": "bash -c \"foot -e spf $HOME/Projects/\"",
+  "menus.dashboard.directories.left.directory2.command": "bash -c \"foot -e spf $HOME/Videos/\"",
+  "menus.dashboard.directories.left.directory1.command": "bash -c \"foot -e spf $HOME/Downloads/\"",
+  "bar.customModules.updates.leftClick": "$TERM -e /usr/share/hyprpanel/scripts/runUpdates.sh -arch"
 }
