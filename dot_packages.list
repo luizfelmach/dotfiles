@@ -47,6 +47,7 @@ k6-bin
 kdenlive
 lazygit
 libnotify
+libreoffice-fresh
 libvirt
 linux-firmware
 linux-lts
@@ -85,6 +86,7 @@ rustup
 scilab-bin
 slurp
 sof-firmware
+spotify
 superfile
 swtpm
 swww
