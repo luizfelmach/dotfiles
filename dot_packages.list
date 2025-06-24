@@ -4,6 +4,7 @@ base-devel
 bat
 bluez
 brightnessctl
+bruno-bin
 btop
 btrfs-progs
 cabal-install
@@ -11,6 +12,7 @@ chezmoi
 cmake
 curl
 discord
+distrobox
 dnsmasq
 docker
 docker-buildx
