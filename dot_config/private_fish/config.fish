@@ -6,8 +6,8 @@ alias paci="paru -S"
 alias pacr="paru -Rnsu"
 alias ports="sudo netstat -tulanp"
 alias venvn="python -m venv $HOME/.globalenv"
-alias venva="source $HOME/.globalenv/bin/activate"
-alias venvr="rm -r $HOME/.globalenv/bin/activate"
+alias venva="source $HOME/.globalenv/bin/activate.fish"
+alias venvr="rm -r $HOME/.globalenv"
 alias cz='chezmoi'
 alias dk='docker'
 
@@ -60,3 +60,8 @@ if status is-interactive
 end
 
 set fish_greeting
+
+set -gx PNPM_HOME "/home/luiz/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
