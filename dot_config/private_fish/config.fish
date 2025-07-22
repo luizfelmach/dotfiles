@@ -9,7 +9,8 @@ alias venvn="python -m venv $HOME/.globalenv"
 alias venva="source $HOME/.globalenv/bin/activate.fish"
 alias venvr="rm -r $HOME/.globalenv"
 alias cz='chezmoi'
-alias dk='docker'
+alias dk='podman'
+alias docker="podman"
 
 set -U fish_user_paths ~/.cargo/bin $fish_user_paths
 set -U fish_user_paths ~/.bin $fish_user_paths
@@ -65,3 +66,4 @@ set -gx PNPM_HOME "/home/luiz/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
+mise activate fish | source

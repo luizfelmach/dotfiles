@@ -8,10 +8,8 @@ chezmoi
 cmake
 decibels
 discord
+distrobox
 dnsmasq
-docker
-docker-buildx
-docker-compose
 downgrade
 efibootmgr
 epiphany
@@ -85,10 +83,13 @@ libva-intel-driver
 libvirt
 linux
 linux-firmware
+linux-headers
 loupe
 magic-wormhole
 malcontent
 man-db
+mise
+mosquitto
 nano
 nautilus
 neovim
@@ -100,6 +101,7 @@ networkmanager-openvpn
 nmap
 noto-fonts
 npm
+obs-studio
 orca
 pacman-contrib
 paru-bin
@@ -109,6 +111,8 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pnpm
+podman
+podman-desktop
 power-profiles-daemon
 qemu-full
 reflector
@@ -127,6 +131,7 @@ tldr
 totem
 traceroute
 ttf-jetbrains-mono-nerd
+v4l2loopback-dkms
 valgrind
 vi
 vim
