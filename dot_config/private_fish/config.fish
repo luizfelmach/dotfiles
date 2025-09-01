@@ -11,11 +11,13 @@ alias venvr="rm -r $HOME/.globalenv"
 alias cz='chezmoi'
 alias dk='podman'
 alias docker="podman"
+alias vault="gocryptfs ~/.vault Vault"
 
 set -U fish_user_paths ~/.cargo/bin $fish_user_paths
 set -U fish_user_paths ~/.bin $fish_user_paths
 set -U fish_user_paths ~/.local/share/pnpm $fish_user_paths
 set -x TERM xterm-256color
+set -x PYTHONDONTWRITEBYTECODE 1
 
 bind \cg lazygit
 bind \ce spf
