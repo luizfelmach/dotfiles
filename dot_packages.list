@@ -1,7 +1,12 @@
+android-studio
+aws-cli
+aws-vault
 baobab
 base
 base-devel
 bat
+bind
+bitwarden
 bruno-bin
 btop
 chezmoi
@@ -10,6 +15,9 @@ decibels
 discord
 distrobox
 dnsmasq
+docker
+docker-buildx
+docker-compose
 downgrade
 efibootmgr
 epiphany
@@ -19,6 +27,7 @@ fastfetch
 fish
 fzf
 gdm
+gemini-cli-bin
 git
 git-delta
 gnome-backgrounds
@@ -53,6 +62,7 @@ gnome-user-share
 gnome-weather
 gnu-free-fonts
 go
+gocryptfs
 grilo-plugins
 grub
 gst-plugin-pipewire
@@ -88,6 +98,7 @@ loupe
 magic-wormhole
 malcontent
 man-db
+miniserve
 mise
 mosquitto
 nano
@@ -102,6 +113,7 @@ nmap
 noto-fonts
 npm
 obs-studio
+openresolv
 orca
 pacman-contrib
 paru-bin
@@ -111,10 +123,9 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pnpm
-podman
-podman-desktop
 power-profiles-daemon
 qemu-full
+rclone
 reflector
 rustup
 rygel
@@ -127,6 +138,7 @@ superfile
 sushi
 swtpm
 tecla
+terraform
 tldr
 totem
 traceroute
@@ -136,6 +148,7 @@ valgrind
 vi
 vim
 virt-manager
+visual-studio-code-bin
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon

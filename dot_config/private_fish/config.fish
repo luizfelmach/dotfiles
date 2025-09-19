@@ -10,8 +10,8 @@ alias venva="source $HOME/.globalenv/bin/activate.fish"
 alias venvr="rm -r $HOME/.globalenv"
 alias cz='chezmoi'
 alias dk='podman'
-alias docker="podman"
 alias vault="gocryptfs ~/.vault Vault"
+alias avault="aws-vault exec -d 6h"
 
 set -U fish_user_paths ~/.cargo/bin $fish_user_paths
 set -U fish_user_paths ~/.bin $fish_user_paths
@@ -64,8 +64,9 @@ end
 
 set fish_greeting
 
-set -gx PNPM_HOME "/home/luiz/.local/share/pnpm"
+set -gx PNPM_HOME "~/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
+
 mise activate fish | source
