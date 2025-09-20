@@ -11,7 +11,7 @@ alias venvr="rm -r $HOME/.globalenv"
 alias cz='chezmoi'
 alias dk='podman'
 alias vault="gocryptfs ~/.vault Vault"
-alias avault="aws-vault exec -d 6h"
+alias avault="aws-vault"
 
 set -U fish_user_paths ~/.cargo/bin $fish_user_paths
 set -U fish_user_paths ~/.bin $fish_user_paths
