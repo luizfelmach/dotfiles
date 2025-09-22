@@ -1,4 +1,5 @@
 android-studio
+ansible
 aws-cli
 aws-vault
 baobab
@@ -86,6 +87,8 @@ iwd
 jq
 julia
 k6-bin
+kind
+kubectl
 lazygit
 libpulse
 libreoffice-fresh
@@ -98,6 +101,7 @@ loupe
 magic-wormhole
 malcontent
 man-db
+minikube
 miniserve
 mise
 mosquitto

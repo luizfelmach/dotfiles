@@ -12,12 +12,14 @@ alias cz='chezmoi'
 alias dk='podman'
 alias vault="gocryptfs ~/.vault Vault"
 alias avault="aws-vault"
+alias k="kubectl"
 
 set -U fish_user_paths ~/.cargo/bin $fish_user_paths
 set -U fish_user_paths ~/.bin $fish_user_paths
 set -U fish_user_paths ~/.local/share/pnpm $fish_user_paths
 set -x TERM xterm-256color
 set -x PYTHONDONTWRITEBYTECODE 1
+set -gx PATH $PATH $HOME/.krew/bin
 
 bind \cg lazygit
 bind \ce spf
