@@ -1,12 +1,44 @@
 #!/bin/bash
 
-if [ -n "$(docker ps -aq)" ]; then
-  docker stop $(docker ps -aq)
+# Verifica se gum está instalado
+if ! command -v gum &> /dev/null; then
+    echo "❌ gum não encontrado. Instale com: brew install gum (ou veja no GitHub)."
+    exit 1
 fi
 
-docker container prune -f
-docker image prune -a -f
-docker volume prune -f
-docker network prune -f
-docker system prune -f
+# Menu multi-seleção
+opcoes=$(gum choose --no-limit "Stop Containers" "Containers" "Imagens" "Volumes" "Networks" "Tudo")
+
+# Executa de acordo com as escolhas
+for opcao in $opcoes; do
+    case $opcao in
+        "Stop Containers")
+            echo "🛑 Parando todos os containers em execução..."
+            docker stop $(docker ps -q) 2>/dev/null || echo "Nenhum container em execução."
+            ;;
+        "Containers")
+            echo "🧹 Limpando containers..."
+            docker container prune -f
+            ;;
+        "Imagens")
+            echo "🧹 Limpando imagens..."
+            docker image prune -a -f
+            ;;
+        "Volumes")
+            echo "🧹 Limpando volumes..."
+            # Força remoção de volumes que não estão em uso
+            docker volume prune -f
+            # Remove volumes órfãos de containers removidos
+            docker volume ls -qf dangling=true | xargs -r docker volume rm
+            ;;
+        "Networks")
+            echo "🧹 Limpando redes..."
+            docker network prune -f
+            ;;
+        "Tudo")
+            echo "🧹 Limpando TUDO (containers, imagens, volumes e redes)..."
+            docker system prune -a --volumes -f
+            ;;
+    esac
+done
 

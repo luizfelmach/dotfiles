@@ -1,3 +1,5 @@
+1password
+1password-cli
 android-studio
 ansible
 aws-cli
@@ -7,11 +9,11 @@ base
 base-devel
 bat
 bind
-bitwarden
 bruno-bin
 btop
 chezmoi
 cmake
+dbeaver
 decibels
 discord
 distrobox
@@ -67,6 +69,7 @@ gocryptfs
 grilo-plugins
 grub
 gst-plugin-pipewire
+gum
 gvfs
 gvfs-afc
 gvfs-dnssd
@@ -78,6 +81,7 @@ gvfs-nfs
 gvfs-onedrive
 gvfs-smb
 gvfs-wsdd
+helm
 htop
 httpie
 intel-media-driver
@@ -141,6 +145,7 @@ spotify
 superfile
 sushi
 swtpm
+tcpdump
 tecla
 terraform
 tldr
