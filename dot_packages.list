@@ -23,6 +23,7 @@ docker-buildx
 docker-compose
 downgrade
 efibootmgr
+eksctl
 epiphany
 evince
 eza
@@ -89,6 +90,7 @@ intel-media-driver
 intel-ucode
 inter-font
 iwd
+jless
 jq
 julia
 k6-bin
@@ -155,6 +157,7 @@ traceroute
 ttf-jetbrains-mono-nerd
 v4l2loopback-dkms
 valgrind
+vegeta
 vi
 vim
 virt-manager
@@ -176,6 +179,7 @@ xf86-video-nouveau
 xorg-server
 xorg-xinit
 yelp
+yq
 zed
 zen-browser-bin
 zip
