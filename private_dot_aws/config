@@ -1,0 +1,8 @@
+[default]
+region=us-east-1
+
+[profile ack]
+role_arn=arn:aws:iam::380865830615:role/AdminRole
+mfa_serial=arn:aws:iam::380865830615:mfa/2fas
+
+[profile luiz]
