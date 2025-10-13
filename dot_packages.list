@@ -128,7 +128,6 @@ openresolv
 orca
 pacman-contrib
 paru-bin
-paru-bin-debug
 pipewire
 pipewire-alsa
 pipewire-jack
