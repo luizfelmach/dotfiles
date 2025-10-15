@@ -1,0 +1,11 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = '$all'
+
+add_newline = false
+
+[character]
+success_symbol = '[➜](bold green)'
+
+[kubernetes]
+disabled = false

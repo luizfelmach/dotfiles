@@ -15,6 +15,8 @@ alias avault="aws-vault"
 alias k="kubectl"
 alias tf="terraform"
 
+starship init fish | source
+
 set -U fish_user_paths ~/.cargo/bin $fish_user_paths
 set -U fish_user_paths ~/.bin $fish_user_paths
 set -U fish_user_paths ~/.local/share/pnpm $fish_user_paths

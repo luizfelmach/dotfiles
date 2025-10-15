@@ -128,6 +128,7 @@ openresolv
 orca
 pacman-contrib
 paru-bin
+paru-bin-debug
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -144,6 +145,7 @@ smartmontools
 snapshot
 sof-firmware
 spotify
+starship
 superfile
 sushi
 swtpm
