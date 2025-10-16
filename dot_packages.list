@@ -2,6 +2,7 @@
 1password-cli
 android-studio
 ansible
+argocd
 aws-cli
 aws-vault
 baobab
@@ -9,6 +10,8 @@ base
 base-devel
 bat
 bind
+bluez
+bluez-utils
 bruno-bin
 btop
 chezmoi
@@ -25,7 +28,6 @@ downgrade
 efibootmgr
 eksctl
 epiphany
-evince
 eza
 fastfetch
 fish
@@ -65,7 +67,6 @@ gnome-tweaks
 gnome-user-docs
 gnome-user-share
 gnome-weather
-gnu-free-fonts
 go
 gocryptfs
 grilo-plugins
@@ -127,8 +128,9 @@ obs-studio
 openresolv
 orca
 pacman-contrib
+papers
 paru-bin
-paru-bin-debug
+paru-debug
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -140,6 +142,7 @@ rclone
 reflector
 rustup
 rygel
+showtime
 simple-scan
 smartmontools
 snapshot
