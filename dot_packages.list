@@ -10,8 +10,8 @@ base
 base-devel
 bat
 bind
-bluez
 bluez-utils
+bridge-utils
 bruno-bin
 btop
 chezmoi
@@ -28,6 +28,7 @@ downgrade
 efibootmgr
 eksctl
 epiphany
+evince
 eza
 fastfetch
 fish
@@ -67,6 +68,7 @@ gnome-tweaks
 gnome-user-docs
 gnome-user-share
 gnome-weather
+gnu-free-fonts
 go
 gocryptfs
 grilo-plugins
@@ -130,7 +132,7 @@ orca
 pacman-contrib
 papers
 paru-bin
-paru-debug
+paru-bin-debug
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -173,6 +175,7 @@ wget
 wireguard-tools
 wireless_tools
 wireplumber
+wireshark-qt
 wl-clipboard
 xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
